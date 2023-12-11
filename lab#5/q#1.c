@@ -7,7 +7,7 @@ int main()
 {
     // creating new file
     FILE *fptr;
-    fptr = fopen("lab6.txt", "w");
+    fptr = fopen("lab5.txt", "w");
     if (fptr != NULL)
     {
         fprintf(fptr, "hey, this is lab#5");
